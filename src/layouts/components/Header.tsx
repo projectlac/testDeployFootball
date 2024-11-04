@@ -224,20 +224,22 @@ const Header = ({ menu, metadata }: { menu: IAppMenu; metadata?: IMetadataModel 
         </ul>
       </div>
       <div className="container mx-auto">
-        <div className="flex items-center text-nowrap whitespace-nowrap overflow-x-auto">
-          <span className="text-red font-bold text-sm">HOT:</span>
-          <ul className="py-1.5">
-            {menu?.hot?.items?.map((item, index) => {
-              return (
-                <li key={index} className="inline-block px-1.5 text-sm border-r border-[#d6d6d6]">
-                  <Link className="text-primary hover:text-red" href={`${item.url}`}>
-                    {item.name}
-                  </Link>
-                </li>
-              )
-            })}
-            <div className="clear-both"></div>
-          </ul>
+        <div className="overflow-x-auto">
+          <div className="px-2 flex items-center text-nowrap whitespace-nowrap">
+            <span className="text-red font-bold text-sm">HOT:</span>
+            <ul className="py-1.5">
+              {menu?.hot?.items?.map((item, index) => {
+                return (
+                  <li key={index} className="inline-block px-1.5 text-sm border-r border-[#d6d6d6]">
+                    <Link className="text-primary hover:text-red" href={`${item.url}`}>
+                      {item.name}
+                    </Link>
+                  </li>
+                )
+              })}
+              <div className="clear-both"></div>
+            </ul>
+          </div>
         </div>
       </div>
       <div className="container mx-auto">{metadata?.breadcrumbs && <Breadcrumbs data={metadata.breadcrumbs} />}</div>

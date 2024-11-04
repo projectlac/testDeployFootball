@@ -11,7 +11,7 @@ const Default = dynamic(() => import('@/layouts/Default'))
 const HomePage = ({ metadata, menu }: { metadata: IMetadataModel; menu: IAppMenu }) => {
   return (
     <Default menu={menu} metadata={metadata}>
-      <>123</>
+      <>1234</>
     </Default>
   )
 }

@@ -78,7 +78,7 @@
 .content_top .menu-scroll-x {
   height: 60px;
   overflow-y: scroll;
-  padding: 6px;
+  padding: 6px 0;
   margin: 5px 0;
 }
 

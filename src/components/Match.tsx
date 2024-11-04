@@ -2,6 +2,7 @@ import { ROUTES } from '@/resources/routes-constants'
 import { IMatch } from '@/types/app-type'
 import { Screen } from '@carbon/icons-react'
 import { format } from 'date-fns'
+import dayjs from 'dayjs'
 import { isNull } from 'lodash'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
@@ -13,12 +14,18 @@ interface MatchProps {
 
 const Match: FC<MatchProps> = ({ match }) => {
   const t = useTranslations('MatchDetail')
+  const s = useTranslations('MatchDetail.status')
+  console.log(dayjs().diff(dayjs(match.date), 'day'))
   return (
     <>
       <div className="flex items-center text-sm py-1.5 border-b border-[#eee] last-of-type:border-b-0 flex-wrap justify-between">
         <div className="w-[140px] hidden sm:block">
           {(match.status.short === 'NS' || match.status.long === 'Match Finished') && (
-            <span className="text-primary">{format(new Date(match.date), 'dd/MM/yyyy HH:mm')}</span>
+            <span className="text-primary">
+              {dayjs().diff(dayjs(match.date), 'day')
+                ? format(new Date(match.date), 'dd/MM/yyyy HH:mm')
+                : format(new Date(match.date), 'HH:mm')}
+            </span>
           )}
           {match.status.elapsed && match.status.long !== 'Match Finished' && (
             <span className="text-red">
@@ -26,7 +33,7 @@ const Match: FC<MatchProps> = ({ match }) => {
               {'′'}
             </span>
           )}
-          {match.status.long === 'Match Cancelled' && <span>Đã huỷ</span>}
+          {match.status.long === 'Match Cancelled' && s(match.status.long)}
         </div>
 
         <div className="w-[40px] sm:hidden">
@@ -39,7 +46,7 @@ const Match: FC<MatchProps> = ({ match }) => {
               {'′'}
             </span>
           )}
-          {match.status.long === 'Match Cancelled' && <span>Đã huỷ</span>}
+          {match.status.long === 'Match Cancelled' && s(match.status.long)}
         </div>
         <div className="w-[130px]  sm:w-[23%] flex justify-end items-center gap-1">
           {/* <Image className="w-5 hidden md:block" src={match.teams.home.logo} alt="" width={20} height={20} /> */}

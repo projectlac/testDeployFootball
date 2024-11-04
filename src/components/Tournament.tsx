@@ -33,27 +33,29 @@ const Tournament: FC<TournamentProps> = ({ matches, country, league, isShowPredi
       <div className="py-1.5 pl-1.5 border-l-4 border-secondary bg-[#edf2f7] flex items-center justify-between">
         <div className="flex items-center">
           {country && (
-            <span className="inline-flex gap-2 items-center">
+            <p className="inline-flex gap-2 items-center">
               {country.flag && <Image className="w-4" src={country.flag ?? null} alt="" width={20} height={20} />}
 
               <Link className="text-primary hover:text-red text-sm font-bold" href={`/${country.slug}`}>
                 {country.name}
               </Link>
-            </span>
+            </p>
           )}
 
           {league && league.slug !== null && (
-            <span className="text-primary leading-4">
-              {league.name !== 'all'&&(<span className='px-2'>»</span>)}
+            <div className="text-primary leading-4 flex">
+              {league.name !== 'all' && <div className="px-2">»</div>}
               {league.name !== 'all' && (
-                <Link
-                  className="text-primary hover:text-red text-sm font-bold"
-                  href={isShowPrediction ? ROUTES.TOURNAMENT_PREDICTIONS.replace(':id', league.slug) : ROUTES.NATIONAL_TOURNAMENT.replace(':id', league.slug)}
-                >
-                  {league.name}
-                </Link>
+                <h3>
+                  <Link
+                    className="text-primary hover:text-red text-sm font-bold"
+                    href={isShowPrediction ? ROUTES.TOURNAMENT_PREDICTIONS.replace(':id', league.slug) : ROUTES.NATIONAL_TOURNAMENT.replace(':id', league.slug)}
+                  >
+                    {league.name}
+                  </Link>
+                </h3>
               )}
-            </span>
+            </div>
           )}
         </div>
         <div className="text-right relative">

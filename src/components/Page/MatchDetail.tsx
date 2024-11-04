@@ -28,7 +28,6 @@ const MatchDetail = ({ data }: IStaticProps<IDataFootball>) => {
   const [replyCommentId, setReplyCommentId] = useState<{ id: number; name: string } | undefined>(undefined)
   const t = useTranslations('MatchDetail')
   const ts = useTranslations('MatchDetail.status')
-  const u = useTranslations('Comment')
   const commentRef = useRef<HTMLTextAreaElement | null>(null)
 
   const setReplyComment = (data: IReplyComment | undefined) => {

@@ -60,7 +60,6 @@ export default Result
 
 export async function getServerSideProps(context: GetServerSidePropsContext) {
   api.defaults.headers.common['lang'] = context.locale
-
   const menu = await getMenus(context.locale ?? 'en')
   const params = context.params
   const slugRaw = (params?.slug as string) ?? ''

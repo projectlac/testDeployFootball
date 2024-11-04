@@ -10,3 +10,16 @@ export function renderPrefixLang(lang: string) {
 export function checkLangVi(str: string) {
   return /^\/vi(\/|\/[\w-]+\/?)?$/.test(str)
 }
+
+export function parsePath(str: string) {
+  const regex = /^\/([a-z]{2})(\/[a-z]+.*)?$/
+  const match = str.match(regex)
+
+  if (match) {
+    const lang = match[1]
+    const pathname = match[2] ? match[2].slice(1) : '' // Loại bỏ dấu '/' ở đầu pathname nếu có
+    return { lang, pathname: `/${pathname}` }
+  }
+
+  return { lang: '/', pathname: str }
+}

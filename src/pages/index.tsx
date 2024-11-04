@@ -39,7 +39,7 @@ const HomePage = ({ data, metadata, menu }: { data: ILeagueMatches; metadata: IM
       const result = await getFixtures({
         date: formattedDate,
         page: prevDay !== day ? 1 : page,
-        perPage: 5
+        perPage: 10
       })
 
       if (Object.entries(result.data).length < 5) {
@@ -120,7 +120,7 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
     const result = await getFixtures({
       date: formattedDate,
       page: 1,
-      perPage: 5
+      perPage: 10
     })
 
     // Pass data to the page via props

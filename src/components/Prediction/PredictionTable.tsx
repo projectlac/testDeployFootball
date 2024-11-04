@@ -43,9 +43,9 @@ const PredictionTable: FC<PredictionTableProps> = (data: PredictionTableProps) =
         <thead className="bg-primary text-white">
           <tr className="[&>th]:p-2 [&>th:not(:first-child)]:text-center text-sm">
             <th className="md:w-[200px] min-w-[200px]">
-              <Link href={`/${data.league?.slug}`}>
+              <h3><Link href={`/${data.league?.slug}`}>
                 {data.league?.name} ({data.items.length})
-              </Link>
+              </Link></h3>
             </th>
             <th className="w-[50px] min-w-[50px]">1</th>
             <th className="w-[50px] min-w-[50px]">X</th>

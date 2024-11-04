@@ -8,7 +8,7 @@ function NoData() {
     <div>
       <div className="mt-2 text-center">{t('title')}</div>
       <div className="text-right text-sm">
-        {t('time')} {dayjs().format('DD/MM/YYYY hh:mm')}
+        {t('time')} {dayjs().format('DD/MM/YYYY HH:mm')}
       </div>
     </div>
   )

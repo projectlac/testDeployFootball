@@ -3,7 +3,6 @@ import { getAllPosts } from '@/resources/api-constants'
 import { useAppDispatch } from '@/store/reducers/store'
 import { loadingAction } from '@/store/slice/loading.slice'
 import { IPostList, IStaticProps } from '@/types/app-type'
-import { useTranslations } from 'next-intl'
 import { useState } from 'react'
 import InfiniteScroll from 'react-infinite-scroll-component'
 
@@ -12,7 +11,6 @@ interface IDataFootball {
 }
 
 const News = ({ data }: IStaticProps<IDataFootball>) => {
-  const t = useTranslations('News')
   const [posts, setPosts] = useState<IPostList[] | null>(data.posts)
   const [isLoadMore, setIsLoadMore] = useState(true)
   const [page, setPage] = useState(1)

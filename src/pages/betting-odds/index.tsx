@@ -27,8 +27,6 @@ export async function getServerSideProps(context: GetServerSidePropsContext) {
   const menu = await getMenus(context.locale ?? 'en')
   const metadata = await getMetaData({ type: 'betting-odds', slug: slugRaw, url: `${renderPrefixLang(context.locale ?? '')}betting-odds` })
 
-  console.log({ type: 'betting-odds', slug: slugRaw, url: `${renderPrefixLang(context.locale ?? '')}betting-odds` })
-
   //pre-render data
 
   try {

@@ -127,10 +127,10 @@ const Sidebar = ({ menu }: IMMenuPropsSideBar) => {
       {dynamicData && dynamicData.heading?.name && (
         <div className="mt-2 text-sm bg-[#f0f0f0]">
           <div className="bg-[#dce0e4] py-2 px-1">
-            <p className="uppercase font-bold flex items-center">
+            <div className="uppercase font-bold flex items-center">
               <TrophyFilled className="text-red" />
               <Link href={`/${dynamicData.heading?.url ?? ''}`}>{dynamicData.heading?.name}</Link>
-            </p>
+            </div>
           </div>
           <ul className="p-3">
             {dynamicData?.items?.map((item, index) => {
@@ -207,7 +207,7 @@ const Sidebar = ({ menu }: IMMenuPropsSideBar) => {
           <div className="bg-[#dce0e4] py-2 px-1">
             <p className="uppercase font-bold flex items-center">
               <TrophyFilled className="text-red" />
-              <h3>{popular.heading.name}</h3>
+              <h2>{popular.heading.name}</h2>
             </p>
           </div>
           <ul className="p-3">

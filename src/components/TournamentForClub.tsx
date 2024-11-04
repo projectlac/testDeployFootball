@@ -39,11 +39,11 @@ const Tournament: FC<TournamentProps> = ({ matches, country, league, isShowPredi
             </span>
           )}
           {league && league.slug !== null && (
-            <span className="text-primary leading-4">
-              <span className='px-2'>»</span>
-              <Link className="text-primary hover:text-red text-sm font-bold" href={ROUTES.NATIONAL_TOURNAMENT.replace(':id', league.slug)}>
+            <span className="text-primary leading-4 flex">
+              <p className='px-2'>»</p>
+              <h3><Link className="text-primary hover:text-red text-sm font-bold" href={ROUTES.NATIONAL_TOURNAMENT.replace(':id', league.slug)}>
                 {league.name}
-              </Link>
+              </Link></h3>
             </span>
           )}
         </div>
