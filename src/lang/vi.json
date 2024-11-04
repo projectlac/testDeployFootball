@@ -1,0 +1,346 @@
+{
+  "HomePage": {
+    "title": "HomePage111",
+    "default":"Dự đoán bóng đá"
+  },
+  "Breadcrumbs": {
+    "home": "Trang chủ"
+  },
+  "Tournament": {
+    "ranking": "BXH",
+    "matchSchedule": "Lịch thi đấu"
+  },
+  "Slide": {
+    "hostest": "Giải bóng đá hot nhất",
+    "search": "Tìm kiếm",
+    "noResult": "Không tìm thấy kết quả",
+    "world": "Cúp Vô địch Châu lục / Thế giới",
+    "result": "KẾT QUẢ BÓNG ĐÁ MỚI NHẤT",
+    "searchtext" : "Tìm kết quả giải đấu"
+  },
+  "MatchDetail": {
+    "result": "Kết quả bóng đá",
+    "today": "Kết quả bóng đá hôm nay",
+    "yesterday": "Kết quả bóng đá hôm qua",
+    "info": "Thông tin trận đấu",
+    "stadium": "Sân vận động:",
+    "temp": "Thời tiết và Nhiệt độ trên sân:",
+    "firstHalfScore": "Tỉ số Hiệp 1",
+    "event": "Diễn biến chính",
+    "bet": "Đặt cược",
+    "statistics": "Số liệu thống kê",
+    "round": "Vòng đấu",
+    "season":"Mùa giải",
+    "min":"120 phút ",
+     "lineUp":{
+      "title":"Đội hình chính và dự bị",
+      "formation":"Đội hình",
+      "reserveTeam": "Đội hình dự bị",
+      "coach":"Huấn luyện viên (HLV)"
+    },
+    "status": {
+      "Time To Be Defined": "Thời gian được xác định",
+      "Time to be defined": "Thời gian được xác định",
+      "Not Started": "Chưa bắt đầu",
+      "First Half": "Hiệp 1",
+      "Kick Off": "Bắt đầu",
+      "Halftime": "Hết hiệp 1",
+      "Second Half": "Hiệp 2",
+      "2nd Half Started": "Hiệp 2 bắt đầu",
+      "Extra Time": "Bù giờ",
+      "Break Time": "Giờ nghỉ giải lao",
+      "Penalty In Progress": "Đang đá Penalty",
+      "Match Suspended": "Bị hoãn",
+      "Match Interrupted": "Bị gián đoạn",
+      "Match Finished": "Kết thúc",
+      "Match Postponed": "Bị hoãn",
+      "Match Cancelled": "Bị huỷ",
+      "Match Abandoned": "Bị quên",
+      "Technical Loss": "Lỗi kỹ thuật",
+      "WalkOver": "WalkOver",
+      "In Progress": "Đang đá"
+    },
+    "static": {
+      "Shots on Goal": "Sút trúng đích",
+      "Shots off Goal": "Sút ra ngoài",
+      "Total Shots": "Tổng cú sút",
+      "Blocked Shots": "Sút bị chặn",
+      "Shots insidebox": "Sút trong vòng cấm",
+      "Shots outsidebox": "Sút ngoài vòng cấm",
+      "Fouls": "Phạm lỗi",
+      "Corner Kicks": "Phạt góc",
+      "Offsides": "Việt vị",
+      "Ball Possession": "Kiểm soát bóng",
+      "Yellow Cards": "Thẻ vàng",
+      "Goalkeeper Saves": "Cứu thua",
+      "Total passes": "Rê bóng thành công",
+      "Passes accurate": "Đường chuyền chính xác",
+      "Passes %": "Chuyền chính xác %"
+    }
+  },
+  "Standing": {
+    "ranking": "BẢNG XẾP HẠNG",
+    "rankingSort1": "XH",
+    "rankingSort2": "BXH",
+    "team": "Đội",
+    "match": "Trận",
+    "win": "Thắng",
+    "draw": "Hoà",
+    "lose": "Thua",
+    "goalScored": "Bàn thắng",
+    "goalConceded": "Bàn thua",
+    "coefficient": "hệ số",
+    "point": "Điểm",
+    "formLast5Matches": "Phong độ 5 trận",
+    "tournament": "Giải đấu",
+    "update": "Cập nhật",
+    "longtext": "BXH {name} mùa giải {season}"
+  },
+  "NationalOrLeague": {
+    "title1": "Kết quả bóng đá",
+    "title2": "Kết quả giải đấu",
+    "result": "Kết quả",
+    "live": "Trực tuyến",
+    "rankingTable": "Bảng xếp hạng",
+    "topScorer": "Top ghi bàn",
+    "schedule": "Lịch thi đấu",
+    "odds": "Kèo bóng đá",
+    "tournament": "Giải đấu",
+    "predictions": "Dự đoán",
+    "info": "Thông tin"
+  },
+  "Tournaments": {
+    "tournamentName": "Tên giải đấu",
+    "rank": "Hạng",
+    "format": "Thể thức",
+    "title": "HỆ THỐNG DANH SÁCH GIẢI ĐẤU BÓNG ĐÁ {country}"
+  },
+  "TopScocers": {
+    "latestTopScorer": "TOP GHI BÀN BÓNG ĐÁ MỚI NHẤT",
+    "match": "XH",
+    "player": "Cầu thủ",
+    "team": "Đội bóng",
+    "goals": "Bàn thắng",
+    "penalty": "Penalty",
+    "tournament": "Giải đấu",
+    "update": "Cập nhật",
+    "topGoalScorer": "Vua phá lưới",
+     "longtext": "BXH top ghi bàn {name} mùa giải {season}"
+  },
+  "News": {
+    "title": "Tin tức bóng đá hôm nay, tin bóng đá Việt Nam và Thế giới"
+  },
+  "NewsDetail": {
+    "sameCategory": "TIN CÙNG CHUYÊN MỤC"
+  },
+  "BlogPost": {
+    "category": "Danh mục",
+    "tag": "Thẻ"
+  },
+  "Player": {
+    "player": "Cầu thủ",
+    "age": "Tuổi",
+    "nat": "QGia",
+    "left": "Từ",
+    "joined": "Gia nhập",
+    "fre": "Phí",
+    "team": "Đội bóng"
+  },
+  "PlayerDetail": {
+    "playerData": "Dữ liệu cầu thủ",
+    "coachData": "Dữ liệu Huấn luyện viên",
+    "dOB": "Ngày sinh/Tuổi",
+    "placeOfBirth": "Nơi sinh",
+    "nationality": "Quốc tịch",
+    "country": "Quốc gia",
+    "height": "Chiều cao",
+    "weight": "Cân nặng",
+    "name": "Tên",
+    "career": "Sự nghiệp",
+    "start": "Bắt đầu",
+    "end": "Kết thúc",
+    "statistic": "Thống kê",
+    "season": "Mùa giải",
+    "team": "Đội bóng",
+    "games": {
+      "title": "Trận đấu",
+      "number": "Số trận đấu",
+      "rating": "Xếp hạng",
+      "captain": "Là đội trưởng",
+      "lineups": "Đội hình ra sân",
+      "minutes": "Phút thi đấu",
+      "position": "Vị trí",
+      "appearences": "Số lần xuất hiện"
+    },
+    "substitutes": {
+      "title": "Cầu thủ dự bị",
+      "in": "Vào sân",
+      "out": "Rời sân",
+      "bench": "Trên ghế dự bị"
+    },
+    "shots": {
+      "title": "Cú sút",
+      "on": "Trúng đích",
+      "total": "Tổng số cú sút"
+    },
+    "goals": {
+      "title": "Bàn thắng",
+      "saves": "Số pha cứu thua",
+      "total": "Tổng số bàn thắng",
+      "assists": "Số pha kiến tạo",
+      "goals": "Số bàn thua"
+    },
+    "passes": {
+      "title": "Chuyền bóng",
+      "key": "Đường chuyền quan trọng",
+      "total": "Tổng số đường chuyền",
+      "accuracy": "Độ chính xác chuyền bóng"
+    },
+    "tackles": {
+      "title": "Tắc bóng",
+      "total": "Tổng số pha tắc bóng",
+      "blocks": "Số pha cản phá",
+      "interceptions": "Số pha cắt bóng"
+    },
+    "duels": {
+      "title": "Tranh chấp",
+      "won": "Tranh chấp thắng",
+      "total": "Tổng số tranh chấp"
+    },
+    "dribbles": {
+      "title": "Dẫn bóng",
+      "past": "Qua người",
+      "success": "Số lần dẫn bóng thành công",
+      "attempts": "Số lần thử dẫn bóng"
+    },
+    "fouls": {
+      "title": "Phạm lỗi",
+      "drawn": "Số lần bị phạm lỗi",
+      "committed": "Số lần phạm lỗi"
+    },
+    "cards": {
+      "title": "Thẻ phạt",
+      "red": "Thẻ đỏ",
+      "yellow": "Thẻ vàng",
+      "yellowred": "Thẻ vàng-đỏ"
+    },
+    "penalty": {
+      "title": "Phạt đền",
+      "won": "Số lần được hưởng phạt đền",
+      "saved": "Số pha cản phá phạt đền",
+      "missed": "Số lần sút hỏng phạt đền",
+      "scored": "Số lần ghi bàn từ phạt đền",
+      "commited": "Số lần phạm lỗi dẫn đến phạt đền"
+    }
+  },
+  "PlayerOrCoach": {
+    "player": "Danh sách cầu thủ",
+    "coach": "Danh sách huấn luyện viên"
+  },
+  "UserDetail": {
+    "name": "Tên người dùng",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "optional": "Tùy chọn",
+    "reqPass": "Trường này là bắt buộc.",
+    "sameMsg": "Password không giống nhau.",
+    "update": "Cập nhật",
+    "cancel": "Đóng",
+    "userProfile": "Hồ sơ người dùng"
+  },
+  "Comment": {
+    "title": "Bình luận",
+    "yourComment": "Bình luận của bạn",
+    "loading": "Đang chờ...",
+    "post": "Đăng bình luận",
+    "cancel": "Đóng",
+    "reply": "Trả lời",
+    "write": "Viết bình luận..."
+  },
+  "NationResult": {
+    "info": "Thông tin mới nhất",
+    "officialName": "Tên chính thức",
+    "otherName": "Tên khác",
+    "nickname": "Biệt danh",
+    "establishmentDate": "Năm/Ngày thành lập",
+    "nationalFootballTeam": "Bóng đá quốc gia nào?",
+    "league": "Giải bóng đá VĐQG",
+    "season": "Mùa giải-mùa bóng",
+    "address": "Địa chỉ",
+    "stadium": "Sân vận động",
+    "stadiumCapacity": "Sức chứa sân vận động",
+    "owner": "Chủ sở hữu",
+    "president": "Chủ tịch",
+    "footballDirector": "Giám đốc bóng đá",
+    "currentCoach": "Huấn luyện viên hiện tại",
+    "coachBirthdate": "Ngày sinh HLV",
+    "coachNationality": "Quốc tịch HLV",
+    "coachJoinDate": "Ngày HLV gia nhập đội",
+    "website": "Website",
+    "email": "Email",
+    "officialFacebook": "Facebook chính thức",
+    "officialTwitter": "Twitter chính thức",
+    "officialInstagram": "Instagram chính thức",
+    "officialYoutube": "Youtube chính thức",
+    "clubOrNationalTeam": "CLB hay ĐTQG?",
+    "ageGroup": "Lứa tuổi",
+    "gender": "Giới tính (nam / nữ)"
+  },
+  "AuthenPage": {
+    "login": "Đăng nhập",
+    "email": "Email:",
+    "reqMes": "Trường này là bắt buộc",
+    "password": "Mật khẩu:",
+    "forgot": "Quên mật khẩu",
+    "signIn": "Đăng nhập",
+    "register": "Đăng ký",
+    "name": "Tên người dùng",
+    "rePassword": "Nhập lại mật khẩu",
+    "sameMsg": "Password không giống nhau.",
+    "rePasswordMsg": "Nhập lại mật khẩu",
+    "invalidEmail": "Email không đúng định dạng",
+    "reset": "Làm mới mật khẩu",
+    "accountSettings": "Cài đặt tài khoản",
+    "signOut": "Đăng xuất",
+    "verify":"Đang xác thực",
+    "verified":"Xác thực thành công"
+  },
+  "Club": {
+    "title": "CLB bóng đá thế giới: Câu lạc bộ MU, MC, Arsenal, Liverpool & Chelsea",
+    "soccer": "Bóng đá"
+  },
+  "FifaRanking": {
+    "title": "Bảng xếp hạng FIFA {year} tháng {month} - BXH FIFA mới nhất",
+    "xhKV": "XHKV",
+    "xhFF": "XH FIFA",
+    "cunrrent": "Điểm hiện tại",
+    "prev": "Điểm trước",
+    "point": "Điểm+/-",
+    "xh": "XH+/-",
+    "dtqg": "ĐTQG",
+    "kv": "Khu vực"
+  },
+  "TopScore": {
+    "title": "Top ghi bàn Ngoại Hạng Anh, Vua phá lưới Anh TBN Ý Đức Pháp",
+    "goal": "Vua phá lưới"
+  },
+  "NationalList": {
+    "title": "ĐTQG Việt Nam: Đội Tuyển Quốc Gia Brazil Argentina Anh Pháp Đức Ý"
+  },
+  "Footer": {
+    "title": "Nhận dự đoán bóng đá mới nhất trong hộp thư của bạn! Vui lòng không đăng ký nếu bạn chưa đủ 18 tuổi",
+    "submit": "Đăng ký",
+    "placeHolder": "Nhập địa chỉ email",
+    "invalid": "Email không đúng định dạng"
+  },
+  "Predictions": {
+    "today": "Hôm nay",
+    "tomorrow": "Ngày mai",
+    "yesterday": "Hôm qua",
+    "bet": "Đặt cược"
+  },
+  "NoData":{
+    "title":"Danh sách trận đấu đang được cập nhật",
+    "time":"Cập nhật:"
+  }
+}

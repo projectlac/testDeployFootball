@@ -1,0 +1,345 @@
+{
+  "HomePage": {
+    "title": "HomePage111",
+    "default": "Football Prediction"
+  },
+  "Breadcrumbs": {
+    "home": "Home"
+  },
+  "Tournament": {
+    "ranking": "Ranking",
+    "matchSchedule": "Match schedule"
+  },
+  "Slide": {
+    "hostest": "Hottest football tournament",
+    "search": "Search",
+    "noResult": "No results found",
+    "world": "Continental / World Championships",
+    "result": "LATEST FOOTBALL RESULTS",
+    "searchtext": "Find league results"
+  },
+  "MatchDetail": {
+    "result": "Football Results",
+    "today": "Football Results Today",
+    "yesterday": "Football Results Yesterday",
+    "info": "Match Information",
+    "stadium": "Stadium:",
+    "temp": "Weather and Temperature in the Stadium:",
+    "firstHalfScore": "First Half Score",
+    "event": "Main Events",
+    "bet": "Place a bet",
+    "statistics": "Statistics",
+    "round": "Round",
+    "season": "Season",
+    "min": "120 mins ",
+    "lineUp": {
+      "title": "First and Reserve Teams",
+      "formation": "Lineup",
+      "reserveTeam": "Reserve Team",
+      "coach": "Coach"
+    },
+    "status": {
+      "Time To Be Defined": "Time To Be Defined",
+      "Time to be defined": "Time To Be Defined",
+      "Not Started": "Not Started",
+      "First Half": "First Half",
+      "Kick Off": "Kick Off",
+      "Halftime": "Halftime",
+      "Second Half": "Second Half",
+      "2nd Half Started": "2nd Half Started",
+      "Extra Time": "Extra Time",
+      "Break Time": "Break Time",
+      "Penalty In Progress": "Penalty In Progress",
+      "Match Suspended": "Match Suspended",
+      "Match Interrupted": "Match Interrupted",
+      "Match Finished": "Match Finished",
+      "Match Postponed": "Match Postponed",
+      "Match Cancelled": "Match Cancelled",
+      "Match Abandoned": "Match Abandoned",
+      "Technical Loss": "Technical Loss",
+      "WalkOver": "WalkOver",
+      "In Progress": "In Progress"
+    },
+    "static": {
+      "Shots on Goal": "Shots on Goal",
+      "Shots off Goal": "Shots off Goal",
+      "Total Shots": "Total Shots",
+      "Blocked Shots": "Blocked Shots",
+      "Shots insidebox": "Shots insidebox",
+      "Shots outsidebox": "Shots outsidebox",
+      "Fouls": "Fouls",
+      "Corner Kicks": "Corner Kicks",
+      "Offsides": "Offsides",
+      "Ball Possession": "Ball Possession",
+      "Yellow Cards": "Yellow Cards",
+      "Goalkeeper Saves": "Goalkeeper Saves",
+      "Total passes": "Total passes",
+      "Passes accurate": "Passes accurate",
+      "Passes %": "Passes %"
+    }
+  },
+  "Standing": {
+    "ranking": "Ranking Table",
+    "rankingSort1": "Rank",
+    "rankingSort2": "Ranking",
+    "team": "Team",
+    "match": "Match",
+    "win": "Win",
+    "draw": "Draw",
+    "lose": "Lose",
+    "goalScored": "Goals Scored",
+    "goalConceded": "Goals Conceded",
+    "coefficient": "Coefficient",
+    "point": "Point",
+    "formLast5Matches": "Form Last 5 Matches",
+    "tournament": "Tournament",
+    "update": "Update",
+    "longtext": "{name} standings {season} season"
+  },
+  "NationalOrLeague": {
+    "title1": "Soccer results",
+    "title2": "Tournament results",
+    "result": "Results",
+    "live": "Livescore",
+    "rankingTable": "Standings",
+    "topScorer": "Top Scorers",
+    "schedule": "Fixtures",
+    "odds": "Betting odds",
+    "predictions": "Predictions",
+    "tournament": "Tournaments",
+    "info": "Info"
+  },
+  "Tournaments": {
+    "tournamentName": "Tournament Name",
+    "rank": "Rank",
+    "format": "Format",
+    "title": "{country} FOOTBALL LEAGUE LIST SYSTEM"
+  },
+  "TopScocers": {
+    "latestTopScorer": "Latest Top Scorer",
+    "match": "Rank",
+    "player": "Player",
+    "team": "Team",
+    "goals": "Goals",
+    "penalty": "Penalty",
+    "tournament": "Tournament",
+    "update": "Update",
+    "topGoalScorer": "Top Goal Scorer",
+    "longtext": "{name} top scores {season} season"
+  },
+  "News": { "title": "Football news today, Vietnam and World football news" },
+  "NewsDetail": {
+    "sameCategory": "SAME CATEGORY"
+  },
+  "BlogPost": {
+    "category": "Categories",
+    "tag": "Tags"
+  },
+  "Player": {
+    "player": "Player",
+    "age": "Age",
+    "nat": "Nat.",
+    "left": "Left",
+    "joined": "Joined",
+    "fre": "Fee",
+    "team": "Team"
+  },
+  "PlayerDetail": {
+    "season": "Season",
+    "playerData": "Player Data",
+    "coachData": "Coach Data",
+    "dOB": "Date of birth/Age",
+    "placeOfBirth": "Place of birth",
+    "nationality": "Nationality",
+    "team": "Team",
+    "country": "Country",
+    "height": "Height",
+    "weight": "Weight",
+    "name": "Name",
+    "career": "Career",
+    "start": "Start",
+    "end": "End",
+    "statistic": "Statistic",
+    "games": {
+      "title": "Game",
+      "number": "Number Of Games",
+      "rating": "Rating",
+      "captain": "Is Captain",
+      "lineups": "Line Ups",
+      "minutes": "Minutes Played",
+      "position": "Position",
+      "appearences": "Appearances"
+    },
+    "substitutes": {
+      "title": "Substitutes",
+      "in": "In Game",
+      "out": "Out Game",
+      "bench": "On Bench"
+    },
+    "shots": {
+      "title": "Shots",
+      "on": "On Target",
+      "total": "Total Shots"
+    },
+    "goals": {
+      "title": "Goals",
+      "saves": "Saves Made",
+      "total": "Total Goals",
+      "assists": "Assists Made",
+      "goals": "Goals Conceded"
+    },
+    "passes": {
+      "title": "Passes",
+      "key": "Key Passes",
+      "total": "Total Passes",
+      "accuracy": "Pass Accuracy"
+    },
+    "tackles": {
+      "title": "Tackles",
+      "total": "Total Tackles",
+      "blocks": "Blocks Made",
+      "interceptions": "Interceptions Made"
+    },
+    "duels": {
+      "title": "Duels",
+      "won": "Duels Won",
+      "total": "Total Duels"
+    },
+    "dribbles": {
+      "title": "Dribbles",
+      "past": "Past Opponent",
+      "success": "Successful Dribbles",
+      "attempts": "Dribble Attempts"
+    },
+    "fouls": {
+      "title": "Fouls",
+      "drawn": "Fouls Drawn",
+      "committed": "Fouls Committed"
+    },
+    "cards": {
+      "title": "Cards",
+      "red": "Red Cards",
+      "yellow": "Yellow Cards",
+      "yellowred": "Yellow Red Cards"
+    },
+    "penalty": {
+      "title": "Penalty",
+      "won": "Penalty Won",
+      "saved": "Penalty Saved",
+      "missed": "Penalty Missed",
+      "scored": "Penalty Scored",
+      "commited": "Penalty Committed"
+    }
+  },
+  "PlayerOrCoach": {
+    "player": "Player List",
+    "coach": "Coach List"
+  },
+
+  "UserDetail": {
+    "name": "Name",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "optional": "Optional",
+    "reqPass": "This field is required.",
+    "sameMsg": "Passwords do not match.",
+    "update": "Update",
+    "cancel": "Cancel",
+    "userProfile": "User profile"
+  },
+  "Comment": {
+    "title": "Comment",
+    "yourComment": "Your Comment",
+    "loading": "Loading...",
+    "post": "Post Comment",
+    "cancel": "Cancel",
+    "reply": "Reply",
+    "write": "Write a comment..."
+  },
+  "NationResult": {
+    "info": "Newest Information",
+    "officialName": "Official Name",
+    "otherName": "Other Name",
+    "nickname": "Nickname",
+    "establishmentDate": "Establishment Date",
+    "nationalFootballTeam": "National Football Team",
+    "league": "League",
+    "season": "Season",
+    "address": "Address",
+    "stadium": "Stadium",
+    "stadiumCapacity": "Stadium Capacity",
+    "owner": "Owner",
+    "president": "President",
+    "footballDirector": "Football Director",
+    "currentCoach": "Current Coach",
+    "coachBirthdate": "Coach Birthdate",
+    "coachNationality": "Coach Nationality",
+    "coachJoinDate": "Coach Join Date",
+    "website": "Website",
+    "email": "Email",
+    "officialFacebook": "Official Facebook",
+    "officialTwitter": "Official Twitter",
+    "officialInstagram": "Official Instagram",
+    "officialYoutube": "Official Youtube",
+    "clubOrNationalTeam": "Club or National Team",
+    "ageGroup": "Age Group",
+    "gender": "Gender"
+  },
+  "AuthenPage": {
+    "login": "Login",
+    "email": "Email:",
+    "reqMes": "This field is required",
+    "password": "Password:",
+    "forgot": "Forgot Password",
+    "signIn": "Sign in",
+    "register": "Register",
+    "name": "Your name:",
+    "rePassword": "Re-type Password",
+    "sameMsg": "Passwords do not match.",
+    "rePasswordMsg": "Confirm your password",
+    "invalidEmail": "Email invalid",
+    "reset": "Reset password",
+    "accountSettings": "Account settings",
+    "signOut": "Sign out",
+    "verify": "Verifying",
+    "verified": "Verified successfully"
+  },
+  "Club": {
+    "title": "World football clubs: MU, MC, Arsenal, Liverpool & Chelsea",
+    "soccer": "Soccer"
+  },
+  "FifaRanking": {
+    "title": "FIFA Ranking {year}/{month} - Latest FIFA Ranking",
+    "xhKV": "Regional Ranking",
+    "xhFF": "FIFA Ranking",
+    "cunrrent": "Current Points",
+    "prev": "Previous Points",
+    "point": "Points+/-",
+    "xh": "Ranking+/-",
+    "dtqg": "National Team",
+    "kv": "Regional"
+  },
+  "TopScore": {
+    "title": "Premier League top scorers, England, Spain, Italy, Germany, France top scorers",
+    "goal": "Top Goal"
+  },
+  "NationalList": {
+    "title": "Vietnam National Team: Brazil Argentina England France Germany Italy National Team"
+  },
+  "Footer": {
+    "title": "Get the latest football predictions in your inbox! Please do not sign up if you are under 18",
+    "submit": "Submit",
+    "placeHolder": "Enter email address",
+    "invalid": "Invalid Email"
+  },
+  "Predictions": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday",
+    "bet": "Bet"
+  },
+  "NoData": {
+    "title": "The match list is being updated",
+    "time": "Updated:"
+  }
+}
